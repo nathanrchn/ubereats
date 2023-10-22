@@ -1,0 +1,10 @@
+[package]
+name = "ubereats"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+guava_order = { git = "https://github.com/nathanrchn/guava_order.git", rev = "main" }
+
+[addresses]
+ubereats = "0x0"
